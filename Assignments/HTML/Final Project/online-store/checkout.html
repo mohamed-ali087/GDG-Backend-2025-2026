@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>online store </title>
+        <meta name="Online Store" content="Home Page">
+        <style>
+        body{
+            background-color: navajowhite;
+        }
+        </style>
+    </head>
+
+    <body>
+        
+        <header>
+           <h1>Online Store</h1>    <!--Store name--> 
+
+           <figure>
+                <img src="images/banner.jpg" height="50%" width="100%"> <!-- banner -->
+           </figure>
+           
+           <nav>
+            <a href="index.html" target="_blank">Home</a>
+            <a href="products.html">Products</a>
+            <a href="cart.html">Cart</a>
+            <a href="checkout.html">Checkout</a>
+           </nav>
+           
+        </header>
+
+        <hr>
+        <main>
+            <h1>Checkout</h1>
+            <form action=""> 
+                <div>
+                    <label for="un">Full Name: </label>
+                    <br>
+                    <input type="text" name="username" id="un" placeholder="Enter Your Full Name" autofocus required>
+                    
+                    <br>
+
+                    <label for="email">Email:</label>
+                    <br>
+                    <input type="email" name="Email" id="email" placeholder="Enter Your Email" required>
+                    
+                    <br>
+                    
+                    <label for="address">Address</label>
+                    <br>
+                    <input type="text" name="Address" id="address" placeholder="Enter Your Address" required>
+
+                    <br>
+                    
+                    <label for="num">Phone Number</label>
+                    <br>
+                    <input type="text" name="Phone Number" id="num" min="9" max="10" placeholder="+20" required>
+                    
+                    <br>
+
+                    <!--payment method radio buttons-->
+                    <label for="">Payment Method: </label>
+                    <br>
+                    <input type="radio" name="pay method" id="credit">
+                    <label for="credit">Credit Card</label>
+                    <br>
+                    <input type="radio" name="pay method" id="cash">
+                    <label for="cash">Cash</label>
+                    <br>
+                    <input type="radio" name="pay method" id="digitalw">
+                    <label for="digitalw">Digital Wallet</label>
+                    
+
+                    <br>
+                    
+                    <input type="submit" value="Checkout">
+
+                </div>
+            </form>
+        </main>
+        
+        <hr>
+
+        <footer>
+
+
+            <p>&copy;Copyright</p>
+            <p><a href="mailto:onlinestore@mail.com" title="mail us">Contact Us</a></p> <!-- contact info  -->
+
+            <div>
+            <p>Social Links: </p> <!-- Social links -->
+            <ul>
+               <li><a href="https://instagram/onlinestore">Instagram</a></li> 
+               <li><a href="https://facebook/onlinestore">Facebook</a></li> 
+               <li><a href="https://discord/onlinestore">Discord</a></li> 
+            </ul>
+            </div>
+       </header>
+        </footer>
+        
+    </body>
+
+</html>
